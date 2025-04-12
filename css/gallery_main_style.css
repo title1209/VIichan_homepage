@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+	font-family: 'Poppins', sans-serif;
+	margin:0px;
+	padding:0px;
+}
+
+html, body {
+	width:100%;
+	height:100%;
+}
+
+a {
+	text-decoration:none;
+	color:inherit;
+}
+
+ul, ol, li {
+	list-style-type:none;
+}
+
+#all {
+	position:relative;
+}
+
+#gallery_main {
+	width:1200px;
+	margin:0px auto;
+}
+
+.imgGallery {
+	width:1200px;
+}
