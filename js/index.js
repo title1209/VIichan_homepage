@@ -51,7 +51,7 @@ if(window_width > 1024) {
 	const bg = new Array;
 		
 	for(i=1; i<=bgImgLength; i++) {
-		bg.push(bgImgUrl+"("+i+").jpg");
+		bg.push(bgImgUrl+"image_"+i+".png");
 	}
 
 	function bgRandom() {
